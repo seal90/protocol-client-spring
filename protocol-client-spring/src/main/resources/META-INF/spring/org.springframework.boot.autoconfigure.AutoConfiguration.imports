@@ -1,0 +1,2 @@
+io.github.seal90.protocol.client.ProtocolClientConfiguration
+io.github.seal90.protocol.client.ProtocolClientAnnotationBeanPostProcessor
