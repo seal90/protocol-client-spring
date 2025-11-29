@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: http-resttemplate-client
+
+logging:
+  level:
+    root: DEBUG
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: env
+
+seal:
+  spring:
+    http-spring:
+      forward-web-headers:
+        - overlay-ns
+      default-channel-name: "default-channel-name"
+      channels:
+        CHANNEL-NAME:
+          address: https://www.github.com
+          addresses:
+            - https://www.github.com
+            - https://www.github.io
+      services:
+        SERVICE-NAME:
+          channel-name: CHANNEL-NAME
+          channel-config:
+            addresses:
+              - https://www.github.com
+              - https://www.github.io

@@ -25,11 +25,13 @@
 
 	<modules>
 		<module>protocol-client-spring</module>
-		<module>examples/grpc/grpc-client</module>
-		<module>examples/grpc/grpc-server</module>
-		<module>examples/feign/feign-client</module>
-		<module>examples/feign/feign-facade</module>
-		<module>examples/feign/feign-server</module>
+		<module>examples/grpc-spring/grpc-client</module>
+		<module>examples/grpc-spring/grpc-server</module>
+		<module>examples/http-feign/feign-client</module>
+		<module>examples/http-feign/feign-facade</module>
+		<module>examples/http-feign/feign-server</module>
+		<module>examples/http-spring-resttemplate</module>
+		<module>examples/http-spring-webclient</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>

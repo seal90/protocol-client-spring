@@ -18,6 +18,7 @@ import java.lang.reflect.Member;
 import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 public class FeignClientAnnotationBeanPostProcessor implements BeanPostProcessor, ApplicationContextAware {
 
   public static final String SERVICE_NAME = "SPRING_SERVICE_NAME";

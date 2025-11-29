@@ -9,9 +9,9 @@
 		<relativePath>../../../pom.xml</relativePath>
 	</parent>
 	<groupId>io.github.seal90</groupId>
-	<artifactId>grpc-client</artifactId>
+	<artifactId>grpc-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>grpc-client</name>
+	<name>grpc-server</name>
 	<description>proto client</description>
 
 	<dependencies>
@@ -21,12 +21,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.grpc</groupId>
-			<artifactId>spring-grpc-spring-boot-starter</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>io.github.seal90</groupId>
-			<artifactId>protocol-client-spring</artifactId>
+			<artifactId>spring-grpc-server-spring-boot-starter</artifactId>
 		</dependency>
 
 		<dependency>

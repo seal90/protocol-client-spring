@@ -2,11 +2,11 @@ package io.github.seal90.protocol.client.generator.feign.extension;
 
 import feign.Feign;
 import feign.RequestInterceptor;
+import io.github.seal90.protocol.client.util.ApplicationContextBeanLookupUtils;
 import lombok.Setter;
 import org.springframework.cloud.openfeign.FeignClientFactory;
 import org.springframework.cloud.openfeign.FeignClientFactoryBean;
 import org.springframework.core.annotation.AnnotationAwareOrderComparator;
-import org.springframework.grpc.internal.ApplicationContextBeanLookupUtils;
 
 import java.util.ArrayList;
 import java.util.List;

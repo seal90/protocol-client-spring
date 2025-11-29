@@ -14,4 +14,9 @@ public interface ProtocolClientType {
    * Http protocol implement by feign
    */
   public static final String HTTP_FEIGN = "HTTP_FEIGN";
+
+  /**
+   * Http protocol implement by WebClient or RestTemplate
+   */
+  public static final String HTTP_SPRING = "HTTP_SPRING";
 }
